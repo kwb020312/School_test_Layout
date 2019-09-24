@@ -14,6 +14,6 @@
 <style>
     height:100vh;
     width:100%;
-    inline-height:100vh;
+    line-height:100vh;
 </style>
 ```
