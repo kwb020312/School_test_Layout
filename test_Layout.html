@@ -45,6 +45,10 @@
             line-height:15vh;
             text-align:center;
         }
+        nav li p{
+            border-bottom:1px dotted white;
+            display:inline-block;
+        }
     </style>
 </head>
 <body>
@@ -53,13 +57,13 @@
     </header>
     <nav>
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
+            <li><p onclick="document.getElementById('change').innerText='HTML 이란...'">HTML</p></li>
+            <li><p onclick="document.getElementById('change').innerText='CSS 란...'">CSS</p></li>
+            <li><p onclick="document.getElementById('change').innerText='JavaScript 란...'">JavaScript</p></li>
         </ul>
     </nav>
     <article>
-        This is School Layout Test!
+        <p id="change">This is School Layout Test!</p>
     </article>
     <footer>
         From Samil Commercial High School
