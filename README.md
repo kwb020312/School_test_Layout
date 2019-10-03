@@ -14,10 +14,10 @@
 <style>
     height:100vh;
     width:100%;
-    inline-height:100vh;
+    line-height:100vh;
 </style>
 ```
 ---
 
-- 화면의 100% 를 활용할 수 있는가??
+- 화면의 100% 를 활용할 수 있는가???
 ![LayOut](./layout.JPG)
